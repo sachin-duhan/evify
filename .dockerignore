@@ -1,0 +1,32 @@
+# .dockerignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Environment variables
+.env
+
+# AWS credentials (if any)
+.aws/
+
+# MongoDB data
+/data/
+
+# S3 uploaded files
+/uploads/
+
+# Virtual environment
+venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.log

@@ -1,0 +1,10 @@
+eve
+boto3
+python-dotenv
+loguru
+dynaconf
+pymongo
+pytest
+moto
+mongomock
+pytest-cov
